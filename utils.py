@@ -19,3 +19,4 @@ def print_model_performance(model, X_test, y_test):
     """
     score = model.score(X_test, y_test)
     print(f"Model Accuracy: {score:.2f}")
+    
